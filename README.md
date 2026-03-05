@@ -1,7 +1,4 @@
-<div align="center">
-  <img src="./public/bio.jpg" alt="Huan Liu" height="120" style="border-radius: 50%;"/>
-
-# Huan Liu
+# Huan Liu's Homepage
 
 PhD Candidate, School of Cyberspace, Hangzhou Dianzi University
 
