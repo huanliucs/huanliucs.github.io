@@ -88,9 +88,12 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       description: cleanBibTeXString(tags.description || tags.note),
       selected,
       preview,
+      ccf: parseCCF(tags.ccf),
+      cas: parseQuartile(tags.cas),
+      jcr: parseQuartile(tags.jcr),
 
       // Store original BibTeX (excluding custom fields)
-      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code']),
+      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code', 'ccf', 'cas', 'jcr']),
     };
 
     // Clean up undefined fields
@@ -286,6 +289,20 @@ function detectResearchArea(title: string, keywords: string[]): ResearchArea {
   }
 
   return 'machine-learning';
+}
+
+function parseCCF(val?: string): 'A' | 'B' | 'C' | undefined {
+  if (!val) return undefined;
+  const v = val.trim().toUpperCase();
+  if (v === 'A' || v === 'B' || v === 'C') return v;
+  return undefined;
+}
+
+function parseQuartile(val?: string): 'Q1' | 'Q2' | 'Q3' | 'Q4' | undefined {
+  if (!val) return undefined;
+  const m = val.trim().toUpperCase().match(/Q[1-4]/);
+  if (m) return m[0] as 'Q1' | 'Q2' | 'Q3' | 'Q4';
+  return undefined;
 }
 
 function reconstructBibTeX(entry: { entryType: string; citationKey: string; entryTags: Record<string, string> }, excludeFields: string[] = []): string {

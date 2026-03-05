@@ -42,3 +42,10 @@ next-env.d.ts
 
 # wrangler
 .wrangler
+
+# local/private artifacts (do not publish)
+.claude/
+AGENTS.md
+CLAUDE.md
+public/bio-temp.jpg
+C:\\Users\\giggl\\.claude\\plugins\\marketplaces\\claude-plugins-official/

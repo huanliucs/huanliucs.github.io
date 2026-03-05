@@ -1,3 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32">
-  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="80">💪</text>
-</svg> 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Huan Liu logo">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f766e" />
+      <stop offset="1" stop-color="#0891b2" />
+    </linearGradient>
+    <linearGradient id="gem" x1="20" y1="18" x2="44" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.96" />
+      <stop offset="1" stop-color="#dbeafe" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bg)" />
+  <path d="M32 15 45 22v16L32 49 19 38V22l13-7Z" fill="url(#gem)" />
+  <path d="M32 15v34M19 22h26M19 38h26M32 15 19 38M32 15l13 23" stroke="#0f172a" stroke-opacity="0.2" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

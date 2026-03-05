@@ -4,6 +4,12 @@ description = "专业服务与社区参与。"
 
 [[items]]
 title = "审稿人"
-subtitle = "某期刊"
-date = "2024"
-content = "参与审阅论文。"
+subtitle = "IEEE Transactions on Cybernetics"
+date = "2025"
+content = "担任 IEEE Transactions on Cybernetics 同行评审人。"
+
+[[items]]
+title = "审稿人"
+subtitle = "The Web Conference (WWW 2025)"
+date = "2025"
+content = "担任 WWW 2025 同行评审人。"

@@ -3,25 +3,79 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "CAST Youth Talent Cultivation Program for PhD Students"
+subtitle = "China Association for Science and Technology (National-Level)"
 date = "2025"
-content = "Description of the award."
+content = "Awarded the national-level CAST Youth Talent Cultivation Program for PhD Students."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "CSC Joint Doctoral Scholarship Award"
+subtitle = "China Scholarship Council (National-Level)"
+date = "2025"
+content = "Awarded a 24-month national scholarship for joint doctoral training abroad."
+
+[[items]]
+title = "Outstanding Master's Thesis Award"
+subtitle = "Hangzhou Dianzi University (University-Level)"
+date = "2025"
+content = "Thesis: Research on Heterogeneous Temporal Graph Representation Learning Methods."
+
+[[items]]
+title = "First Grade Academic Scholarship"
+subtitle = "Hangzhou Dianzi University"
+date = "2025"
+content = "Received the First Grade Academic Scholarship (multiple times awarded)."
+
+[[items]]
+title = "Outstanding Graduate"
+subtitle = "Zhejiang Province & Hangzhou Dianzi University (Provincial-Level)"
 date = "2024"
-content = "Description of the award."
+content = "Recognized as an outstanding graduate at both the provincial and university levels."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "National Scholarship for Master's Students"
+subtitle = "Ministry of Education of China (National-Level)"
 date = "2023"
-content = "Description of the award."
+content = "Awarded the national scholarship for outstanding master's students."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "HeyGears Technology Science and Innovation Scholarship"
+subtitle = "HeyGears Technology"
+date = "2023"
+content = "Awarded to the top 5% of students for excellence in science and innovation."
+
+[[items]]
+title = "PAT (Programming Ability Test), Advanced Level"
+subtitle = "Zhejiang University"
+date = "2020"
+content = "Passed the Advanced Level of the Computer Programming Ability Test (PAT-A)."
+
+[[items]]
+title = "First Prize, National College Student Mathematical Modeling Competition"
+subtitle = "Xinjiang Region"
+date = "2019"
+content = "First prize in the Xinjiang region of the National College Student Mathematical Modeling Competition."
+
+[[items]]
+title = "First Prize, 10th Lanqiao Cup C/C++ Programming Competition"
+subtitle = "Xinjiang Region"
+date = "2019"
+content = "First prize in the 10th Lanqiao Cup C/C++ Programming Competition, Xinjiang Division."
+
+[[items]]
+title = "Honorable Mention, ACM-ICPC Nanchang Invitational"
+subtitle = "ACM-ICPC"
+date = "2019"
+content = "Honorable mention at the ACM-ICPC Nanchang Invitational Contest."
+
+[[items]]
+title = "Silver Medal, 5th ACM-ICPC Xinjiang Provincial Contest"
+subtitle = "ACM-ICPC"
+date = "2019"
+content = "Silver medal at the 5th ACM-ICPC Xinjiang Provincial Programming Contest."
+
+[[items]]
+title = "First Prize, 9th ACM-ICPC Shihezi University Invitational"
+subtitle = "Shihezi University"
+date = "2018"
+content = "First prize at the 9th ACM-ICPC Invitational Contest of Shihezi University."

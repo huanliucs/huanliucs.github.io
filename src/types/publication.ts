@@ -45,6 +45,9 @@ export interface Publication {
   summary?: string;
   researchArea: ResearchArea;
   description?: string;
+  ccf?: 'A' | 'B' | 'C';
+  cas?: 'Q1' | 'Q2' | 'Q3' | 'Q4';
+  jcr?: 'Q1' | 'Q2' | 'Q3' | 'Q4';
 }
 
 export type PublicationType =

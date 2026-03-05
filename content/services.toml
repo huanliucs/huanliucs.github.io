@@ -4,6 +4,12 @@ description = "Professional services and community involvement."
 
 [[items]]
 title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+subtitle = "IEEE Transactions on Cybernetics"
+date = "2025"
+content = "Peer reviewer for IEEE Transactions on Cybernetics."
+
+[[items]]
+title = "Reviewer"
+subtitle = "The Web Conference (WWW 2025)"
+date = "2025"
+content = "Peer reviewer for The Web Conference 2025."

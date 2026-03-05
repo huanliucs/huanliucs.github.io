@@ -1,18 +1,18 @@
 [site]
-title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+title = "刘欢"
+description = "杭州电子科技大学博士研究生个人主页（研究方向：动态异质图表示学习与基础模型）。"
+last_updated = "2026年3月"
 
 [author]
-name = "刘嘉乐"
-title = "博士生"
-institution = "某某大学"
+name = "刘欢"
+title = "博士研究生"
+institution = "杭州电子科技大学"
 
 [social]
-location = "城市，国家"
+location = "杭州，中国"
 location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
+  "网络空间安全学院，",
+  "杭州电子科技大学，杭州 310018"
 ]
 
 [[navigation]]
@@ -26,12 +26,6 @@ title = "论文"
 type = "page"
 target = "publications"
 href = "/publications"
-
-[[navigation]]
-title = "教学"
-type = "page"
-target = "teaching"
-href = "/teaching"
 
 [[navigation]]
 title = "奖项"

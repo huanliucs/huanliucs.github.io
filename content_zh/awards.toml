@@ -3,25 +3,79 @@ title = "奖项"
 description = "我获得的荣誉与奖项。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
+title = "中国科协青年科技人才培育工程博士生专项计划"
+subtitle = "中国科学技术协会（国家级）"
 date = "2025"
-content = "奖项说明。"
+content = "荣获国家级中国科协青年人才托举工程博士生专项。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
+title = "国家留学基金委公派联合培养博士生奖学金"
+subtitle = "国家留学基金委（国家级）"
+date = "2025"
+content = "获批24个月国家级联合培养博士生出国留学奖学金。"
+
+[[items]]
+title = "优秀硕士学位论文"
+subtitle = "杭州电子科技大学（校级）"
+date = "2025"
+content = "论文题目：动态异质图表示学习方法研究。"
+
+[[items]]
+title = "研究生一等学业奖学金"
+subtitle = "杭州电子科技大学"
+date = "2025"
+content = "多次荣获杭州电子科技大学研究生一等学业奖学金。"
+
+[[items]]
+title = "优秀毕业生"
+subtitle = "浙江省及杭州电子科技大学（省级）"
 date = "2024"
-content = "奖项说明。"
+content = "同时获得浙江省级与校级优秀毕业生称号。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
+title = "硕士研究生国家奖学金"
+subtitle = "中华人民共和国教育部（国家级）"
 date = "2023"
-content = "奖项说明。"
+content = "荣获面向优秀硕士研究生的国家奖学金。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2022"
-content = "奖项说明。"
+title = "杭州电子科技大学计算机学院黑格科技教育基金"
+subtitle = "海格里斯科技（前5%）"
+date = "2023"
+content = "以前5%的成绩荣获科学与创新优秀奖学金。"
+
+[[items]]
+title = "计算机程序设计能力考试（PAT）甲级"
+subtitle = "浙江大学"
+date = "2020"
+content = "通过浙江大学计算机程序设计能力考试（PAT）甲级。"
+
+[[items]]
+title = "全国大学生数学建模竞赛新疆赛区一等奖"
+subtitle = "中国工业与应用数学学会"
+date = "2019"
+content = "荣获全国大学生数学建模竞赛新疆赛区一等奖。"
+
+[[items]]
+title = "第十届蓝桥杯 C/C++ 程序设计竞赛新疆赛区一等奖"
+subtitle = "工业和信息化部人才交流中心"
+date = "2019"
+content = "荣获第十届蓝桥杯全国软件和信息技术专业人才大赛 C/C++ 程序设计竞赛新疆赛区一等奖。"
+
+[[items]]
+title = "ACM-ICPC 南昌邀请赛优秀奖"
+subtitle = "ACM-ICPC"
+date = "2019"
+content = "荣获 ACM-ICPC 南昌邀请赛优秀奖。"
+
+[[items]]
+title = "第五届 ACM-ICPC 新疆省赛银奖"
+subtitle = "ACM-ICPC"
+date = "2019"
+content = "荣获第五届 ACM-ICPC 新疆省级程序设计竞赛银奖。"
+
+[[items]]
+title = "石河子大学第九届 ACM-ICPC 校赛一等奖"
+subtitle = "石河子大学"
+date = "2018"
+content = "荣获石河子大学第九届 ACM-ICPC 程序设计校赛一等奖。"
