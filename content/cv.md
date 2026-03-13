@@ -28,7 +28,7 @@
 
 ## Selected Honors
 
-- **CAST Youth Talent Cultivation Program for PhD Students** (National-Level) — *Dec. 2025*
+- **Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST** (National-Level) — *Dec. 2025*
 - **CSC Joint Doctoral Scholarship Award** (24 months, National-Level) — *May 2025*
 - Outstanding Master's Thesis Award, Hangzhou Dianzi University (University-Level) — *Sept. 2025*
 - First Grade Academic Scholarship, Hangzhou Dianzi University (Multiple Awarded) — *Oct. 2025*
@@ -46,4 +46,3 @@
 
 - **Programming:** Python, PyTorch, Deep Graph Library (DGL), PyTorch Geometric (PyG)
 - **Languages:** English (CET-4/CET-6), Mandarin (Native Speaker)
-
