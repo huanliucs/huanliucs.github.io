@@ -22,7 +22,7 @@ My research focuses on Graph Learning, especially Dynamic Heterogeneous Graphs a
 
 - IJCAI 2025 paper accepted: *Heterogeneous Temporal Hypergraph Neural Network*
 - CAST Youth Talent Cultivation Program for PhD Students (2025)
-- CSC Joint Doctoral Scholarship (2025)
+- CSC Scholarship for Joint PhD at the University of Sydney (2025)
 
 ## Contact
 

@@ -29,11 +29,11 @@
 ## Selected Honors
 
 - **Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST** (National-Level) — *Dec. 2025*
-- **CSC Joint Doctoral Scholarship Award** (24 months, National-Level) — *May 2025*
+- **CSC Scholarship for Joint PhD at the University of Sydney** — *May 2025*
 - Outstanding Master's Thesis Award, Hangzhou Dianzi University (University-Level) — *Sept. 2025*
 - First Grade Academic Scholarship, Hangzhou Dianzi University (Multiple Awarded) — *Oct. 2025*
 - Outstanding Graduate, Zhejiang Province & University (Provincial-Level) — *May 2024*
-- **National Scholarship for Master's Students** (National-Level) — *Nov. 2023*
+- **National Scholarship for Master's Students** — *Nov. 2023*
 - HeyGears Technology Science and Innovation Scholarship (Top 5%) — *Jun. 2023*
 - PAT (Programming Ability Test), Advanced Level — *Sept. 2020*
 - First Prize, National College Student Mathematical Modeling Competition (Xinjiang Region) — *Sept. 2019*
