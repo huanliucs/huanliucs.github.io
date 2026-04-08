@@ -26,6 +26,17 @@
 **High-order Interaction Modeling in Heterogeneous Temporal Graphs** *(Jun. 2024 – Feb. 2025)*
 - Designed a heterogeneous temporal hypergraph network (HTHGN) to capture group interactions beyond pairwise relations via P-uniform hyperedges and hierarchical attention, improving representation of dynamic structures.
 
+## Talks
+
+- **Machine Learning and Natural Language Processing Community (MLNLP)**, *Mar. 28, 2026*
+  - Talk: [Dynamic Heterogeneous Graph Representation Learning: Unified Modeling and Higher-order Interaction Representation Methods](https://mp.weixin.qq.com/s/fwH6apgMde0VP5Arhv5hgQ)
+- **13th National Conference on Social Media Processing (SMP 2025)**, *Nov. 20 - Nov. 23, 2025*
+  - Poster presentation
+- **21st National Conference on Complex Networks (CCCN 2025)**, *Oct. 10 - Oct. 12, 2025*
+  - Talk: "Heterogeneous Temporal Hypergraph Neural Network"
+- **34th International Joint Conference on Artificial Intelligence (IJCAI 2025)**, *Aug. 29 - Aug. 31, 2025*
+  - Poster & Talk: "Heterogeneous Temporal Hypergraph Neural Network"
+
 ## Selected Honors
 
 - **Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST** (National-Level) — *Dec. 2025*

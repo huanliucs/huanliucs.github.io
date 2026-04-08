@@ -14,6 +14,7 @@ import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid';
 import { Github, Linkedin, Pin } from 'lucide-react';
 import type { SiteConfig } from '@/lib/config';
 import { useMessages } from '@/lib/i18n/useMessages';
+import VisitorGlobe from '@/components/widgets/VisitorGlobe';
 
 // Custom ORCID icon component
 const OrcidIcon = ({ className }: { className?: string }) => (
@@ -317,7 +318,7 @@ export default function Profile({ author, social, features, researchInterests }:
 
             {/* Like Button */}
             {features.enable_likes && (
-                <div className="flex justify-center">
+                <div className="flex flex-col items-center">
                     <div className="relative">
                         <motion.button
                             onClick={handleLike}
@@ -351,6 +352,7 @@ export default function Profile({ author, social, features, researchInterests }:
                             )}
                         </AnimatePresence>
                     </div>
+                    <VisitorGlobe />
                 </div>
             )}
         </motion.div>
