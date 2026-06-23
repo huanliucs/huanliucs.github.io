@@ -1,3 +1,1 @@
-我是[杭州电子科技大学](https://www.hdu.edu.cn)网络空间安全学院博士研究生，导师为[焦鹏飞教授](https://cspjiao.github.io/)。我于2024年在杭州电子科技大学获得计算机科学与技术硕士学位，于2021年在石河子大学获得计算机科学与技术学士学位。
-
-我的研究方向聚焦于**图学习**，尤其关注**动态异质图**表示学习及面向图结构时序数据的**基础模型**。
+我是[杭州电子科技大学](https://www.hdu.edu.cn)网络空间安全学院博士研究生，导师为[焦鹏飞教授](https://cspjiao.github.io/)。目前在[新加坡国立大学](https://www.nus.edu.sg/)担任访问博士研究员，合作导师为[See-Kiong Ng 教授](https://www.comp.nus.edu.sg/~ngsk/)；此前曾在[悉尼大学](https://www.sydney.edu.au/)担任访问博士研究员，合作导师为[Jie Yin 教授](https://sites.google.com/site/csyinjie/)。我的研究方向聚焦于**图学习**，尤其关注**动态异质图**及面向图结构时序数据的**基础模型**。

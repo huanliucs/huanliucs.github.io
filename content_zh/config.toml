@@ -1,7 +1,7 @@
 [site]
 title = "刘欢"
 description = "杭州电子科技大学博士研究生个人主页（研究方向：动态异质图表示学习与基础模型）。"
-last_updated = "2026年3月"
+last_updated = "2026年6月"
 
 [author]
 name = "刘欢"
@@ -9,10 +9,10 @@ title = "博士研究生"
 institution = "杭州电子科技大学"
 
 [social]
-location = "杭州，中国"
+location = "新加坡"
 location_details = [
-  "网络空间安全学院，",
-  "杭州电子科技大学，杭州 310018"
+  "新加坡国立大学，",
+  "新加坡"
 ]
 
 [[navigation]]
@@ -32,12 +32,6 @@ title = "奖项"
 type = "page"
 target = "awards"
 href = "/awards"
-
-[[navigation]]
-title = "服务"
-type = "page"
-target = "services"
-href = "/services"
 
 [[navigation]]
 title = "简历"

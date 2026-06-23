@@ -12,6 +12,14 @@
 **Shihezi University**, B.S. in Computer Science and Technology, *Sep. 2017 – Jun. 2021*
 - School of Information Science and Technology
 
+## Experience
+
+**National University of Singapore (NUS)**, Visiting Ph.D. Researcher, *Jun. 2026 – Present*
+- Supervised by [Prof. See-Kiong Ng](https://www.comp.nus.edu.sg/~ngsk/)
+
+**University of Sydney (USYD)**, Visiting Ph.D. Researcher, *Mar. 2025 – Mar. 2026*
+- Supervised by [Prof. Jie Yin](https://sites.google.com/site/csyinjie/)
+
 ## Research Experience
 
 **Scalable Foundation Models for Dynamic Heterogeneous Graph Representation Learning** *(Jan. 2026 – Present)*
@@ -40,7 +48,7 @@
 ## Selected Honors
 
 - **Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST** (National-Level) — *Dec. 2025*
-- **CSC Scholarship for Joint PhD at the University of Sydney** — *May 2025*
+- **CSC Scholarship for Joint PhD** — *May 2025*
 - Outstanding Master's Thesis Award, Hangzhou Dianzi University (University-Level) — *Sept. 2025*
 - First Grade Academic Scholarship, Hangzhou Dianzi University (Multiple Awarded) — *Oct. 2025*
 - Outstanding Graduate, Zhejiang Province & University (Provincial-Level) — *May 2024*

@@ -35,11 +35,19 @@ const monthMapping: Record<string, number> = {
   dec: 12, december: 12,
 };
 
+type PublicationSortItem = {
+  publication: Publication;
+  authorRank: number;
+  qualityRank: number;
+  monthRank: number;
+  originalIndex: number;
+};
+
 export function parseBibTeX(bibtexContent: string, locale?: string): Publication[] {
   const highlightNames = getHighlightNames(locale);
   const entries = bibtexParse.toJSON(bibtexContent);
 
-  return entries.map((entry: { entryType: string; citationKey: string; entryTags: Record<string, string> }, index: number) => {
+  const publicationItems: PublicationSortItem[] = entries.map((entry: { entryType: string; citationKey: string; entryTags: Record<string, string> }, index: number) => {
     const tags = entry.entryTags;
 
     // Parse authors
@@ -103,22 +111,40 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       }
     });
 
-    return publication;
-  }).sort((a: Publication, b: Publication) => {
-    // Sort by year (descending), then by month if available
-    if (b.year !== a.year) return b.year - a.year;
-
-    // For month comparison, treat missing months as January (1) to ensure they appear last within the year
-    const monthA = typeof a.month === 'string' ?
-      (monthMapping[a.month.toLowerCase()] || parseInt(a.month) || 1) :
-      (a.month || 1);
-    const monthB = typeof b.month === 'string' ?
-      (monthMapping[b.month.toLowerCase()] || parseInt(b.month) || 1) :
-      (b.month || 1);
-
-    // Sort by month descending (December to January)
-    return monthB - monthA;
+    return {
+      publication,
+      authorRank: getHighlightedAuthorRank(authors),
+      qualityRank: getPublicationQualityRank(tags),
+      monthRank: getMonthRank(publication.month),
+      originalIndex: index,
+    };
   });
+
+  return publicationItems.sort((a: PublicationSortItem, b: PublicationSortItem) => {
+    if (b.publication.year !== a.publication.year) return b.publication.year - a.publication.year;
+    if (a.authorRank !== b.authorRank) return a.authorRank - b.authorRank;
+    if (a.qualityRank !== b.qualityRank) return a.qualityRank - b.qualityRank;
+    if (b.monthRank !== a.monthRank) return b.monthRank - a.monthRank;
+    return a.originalIndex - b.originalIndex;
+  }).map(({ publication }) => publication);
+}
+
+function getMonthRank(month?: string): number {
+  if (!month) return 1;
+  return monthMapping[month.toLowerCase()] || parseInt(month) || 1;
+}
+
+function getHighlightedAuthorRank(authors: Array<{ isHighlighted?: boolean }>): number {
+  const index = authors.findIndex(author => author.isHighlighted);
+  return index === -1 ? Number.MAX_SAFE_INTEGER : index;
+}
+
+function getPublicationQualityRank(tags: Record<string, string>): number {
+  const ccf = tags.ccf?.trim().toUpperCase();
+  const cas = tags.cas?.trim().toUpperCase();
+  const jcr = tags.jcr?.trim().toUpperCase();
+
+  return ccf === 'A' || cas?.includes('Q1 TOP') || jcr?.includes('Q1 TOP') ? 0 : 1;
 }
 
 function getHighlightNames(locale?: string): string[] {

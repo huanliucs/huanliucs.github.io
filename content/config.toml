@@ -2,7 +2,7 @@
 title = "Huan Liu"
 description = "PhD Candidate at Hangzhou Dianzi University."
 favicon = "/favicon.svg"
-last_updated = "March 2026"
+last_updated = "June 2026"
 
 [author]
 name = "Huan Liu"
@@ -14,11 +14,11 @@ avatar = "/bio.jpg"
 # Contact information (leave blank or delete to hide)
 
 email = "huanliu@hdu.edu.cn"
-location = "Hangzhou, China"
-location_url = "https://maps.app.goo.gl/E1J2voN6x8jAeaAP8"
+location = "Singapore"
+location_url = "https://maps.app.goo.gl/WR1HMx8dvaYm3PFD6"
 location_details = [
-  "School of Cyberspace,",
-  "Hangzhou Dianzi University, Hangzhou 310018, China"
+  "National University of Singapore,",
+  "Singapore"
 ]
 google_scholar = "https://scholar.google.com/citations?user=n8r9x_kAAAAJ&hl=en&authuser=2&oi=sra"
 github = "https://github.com/huanliucs"
@@ -64,12 +64,6 @@ title = "Awards"
 type = "page"
 target = "awards"
 href = "/awards"
-
-[[navigation]]
-title = "Services"
-type = "page"
-target = "services"
-href = "/services"
 
 [[navigation]]
 title = "CV"
